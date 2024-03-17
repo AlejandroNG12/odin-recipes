@@ -1,0 +1,47 @@
+body{
+    background-color: rgba(255, 253, 136, 0.922);
+}
+h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(232, 210, 10);
+    border-bottom: 3px solid rgb(232, 210, 10);
+    border-top: 3px solid rgb(232, 210, 10);
+
+}
+.cheese-image{
+    position: relative;
+    left:50px;
+    width: 400px;
+    height: auto;
+    border: 5px solid rgb(232, 210, 10);
+    border-radius: 15px;
+    float: left;
+}
+.des{
+    position: relative;
+    left:100px;
+}
+h3{
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+
+}
+.text{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+.text strong{
+    font-size: 20px;
+}
+.sub-titles{
+    position: relative;
+    top: 220px;
+}
+ol > li > h4{
+    font-weight: bold;
+    font-size: 20px;
+}
