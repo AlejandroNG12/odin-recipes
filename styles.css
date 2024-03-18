@@ -1,22 +1,47 @@
-body{
+#cheese-body{
     background-color: rgba(255, 253, 136, 0.922);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#cabbage-body{
+    background-color: rgb(254, 209, 237);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#index-body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
 }
 h1{
     text-align: center;
     font-weight: bold;
     font-size: 50px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-bottom: 3px solid black;
+    border-style:dashed;
+}
+#cabbage{
+    color: rgb(232, 10, 10);
+    border-bottom: 3px solid rgb(232, 10, 10);
+    border-top: 3px solid rgb(232, 10, 10);
+}
+#cheese{
     color: rgb(232, 210, 10);
     border-bottom: 3px solid rgb(232, 210, 10);
     border-top: 3px solid rgb(232, 210, 10);
-
 }
-.cheese-image{
+#cheese-image{
     position: relative;
     left:50px;
     width: 400px;
     height: auto;
     border: 5px solid rgb(232, 210, 10);
+    border-radius: 15px;
+    float: left;
+}
+#cabbage-image{
+    position: relative;
+    left:50px;
+    width: 400px;
+    height: auto;
+    border: 5px solid rgb(232, 10, 10);
     border-radius: 15px;
     float: left;
 }
@@ -26,22 +51,29 @@ h1{
 }
 h3{
     font-size: 30px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
+    color: rgb(194, 10, 10);
 
 }
 .text{
-    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 18px;
 }
 .text strong{
     font-size: 20px;
 }
-.sub-titles{
+.below-image{
+    float: left;
     position: relative;
-    top: 220px;
+    left: 50px;
+
 }
 ol > li > h4{
     font-weight: bold;
     font-size: 20px;
+}
+.des.text, ol li a{
+    font-size: 25px;
+}
+.center{
+    text-align: center;
 }
